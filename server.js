@@ -11,9 +11,9 @@ server.listen(3000, () => {
 });
 
 router.render = (req, res) => {
-    res.jsonp({
-        count: res.locals.data.length,
-        results: [res.locals.data],
-    });
-    console.log(res.locals.data);
+  res.jsonp({
+    count: res.locals.data.length,
+    results: [res.locals.data],
+  });
+  console.log(res.locals.data);
 };
