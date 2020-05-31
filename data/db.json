@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "name": "pain_killers",
+      "display_name": "Pain Killers",
+      "description": "Light Pain Killer",
+      "_id": 1
+    },
+    {
+      "name": "supplements",
+      "display_name": "Supplements",
+      "description": "Dietary Supplement Drugs, supplementing the diet",
+      "_id": 2
+    }
+  ],
+  "products": [
+    {
+      "category": "pain_killers",
+      "name": "paracetamol",
+      "display_name": "Panadol",
+      "description": "Pain Killer, helps with treating pain and fever",
+      "_id": 1
+    },
+    {
+      "category": "supplements",
+      "name": "zinc_sulphate",
+      "display_name": "Zinc Tablets",
+      "description": "Growth supplement, helps with developing body tissues",
+      "_id": 2
+    },
+    {
+      "category": "pain_killers",
+      "name": "paracetamol",
+      "display_name": "Advil",
+      "description": "Pain Killer, helps with treating pain and fever",
+      "_id": 3
+    },
+    {
+      "category": "supplements",
+      "name": "B Complex Vitamin",
+      "display_name": "Vitamin B12",
+      "description": "Essential vitamin, required for the development of the brain, nerves, blood cells, etc.",
+      "_id": 4
+    }
+  ]
+}
