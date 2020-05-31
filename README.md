@@ -10,6 +10,8 @@
 
 [ci/cd](https://github.com/Darah98/api-server/pull/1/checks?check_run_id=725278346)
 
+[Swagger](https://app.swaggerhub.com/apis/Darah98/api-server/0.1#/default/post_categories)
+
 ## Setup
 
 ### How to initialize/run your application
