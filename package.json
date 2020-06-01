@@ -2,11 +2,13 @@
   "name": "api-server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "json-server": "^0.16.1"
   },
   "devDependencies": {
@@ -15,7 +17,7 @@
   },
   "scripts": {
     "test": "jest --verbose --coverage",
-    "start": "node server.js",
+    "start": "node index.js",
     "lint": "eslint '**/*.js'"
   },
   "repository": {
