@@ -8,7 +8,7 @@
 
 [submission PR](https://github.com/Darah98/api-server/pull/2)
 
-[ci/cd](https://github.com/Darah98/api-server/pull/1/checks?check_run_id=725278346)
+[ci/cd](https://github.com/Darah98/api-server/runs/732327101?check_suite_focus=true)
 
 [Swagger](https://app.swaggerhub.com/apis/Darah98/api-server/0.1#/default/post_categories)
 
