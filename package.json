@@ -9,15 +9,17 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "json-server": "^0.16.1"
+    "json-server": "^0.16.1",
+    "supertest": "^4.0.2"
   },
   "devDependencies": {
     "eslint": "^7.1.0",
     "jest": "^26.0.1"
   },
   "scripts": {
-    "test": "jest --verbose --coverage",
     "start": "node index.js",
+    "dev": "nodemon",
+    "test": "jest --verbose --coverage",
     "lint": "eslint '**/*.js'"
   },
   "repository": {

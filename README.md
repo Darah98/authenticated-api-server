@@ -1,12 +1,12 @@
-# LAB - Class 06
+# LAB - Class 07
 
-# Lab: HTTP and REST
+# Lab: Express
 
 # Author: Darah
 
 # Links and Resources
 
-[submission PR](https://github.com/Darah98/api-server/pull/1)
+[submission PR](https://github.com/Darah98/api-server/pull/2)
 
 [ci/cd](https://github.com/Darah98/api-server/pull/1/checks?check_run_id=725278346)
 
@@ -16,8 +16,8 @@
 
 ### How to initialize/run your application
 
-- To run application: json-server --watch ./data/db.json
+- To run application: nodemon/ npm start index.js
 
 ### UML
 
-![UML](api-uml.PNG)
+![UML](uml-api-lab7.PNG)
