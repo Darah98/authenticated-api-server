@@ -1,12 +1,12 @@
-# LAB - Class 07
+# LAB - Class 08
 
-# Lab: Express
+# Lab: Express & Connected API
 
 # Author: Darah
 
 # Links and Resources
 
-[submission PR](https://github.com/Darah98/api-server/pull/2)
+[submission PR](https://github.com/Darah98/api-server/pull/3)
 
 [ci/cd](https://github.com/Darah98/api-server/runs/732327101?check_suite_focus=true)
 
