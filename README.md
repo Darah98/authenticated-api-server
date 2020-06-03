@@ -1,12 +1,12 @@
-# LAB - Class 08
+# LAB - Class 09
 
-# Lab: Express & Connected API
+# Lab: API Server Phase 4
 
 # Author: Darah
 
 # Links and Resources
 
-[submission PR](https://github.com/Darah98/api-server/pull/3)
+[submission PR](https://github.com/Darah98/api-server/pull/4)
 
 [ci/cd](https://github.com/Darah98/api-server/runs/732327101?check_suite_focus=true)
 
