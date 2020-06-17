@@ -11,8 +11,8 @@ const router = express.Router();
 router.post('/signup', signupOne);
 router.post('/signin', basicAuth, signinOne);
 router.get('/users', listAll);
-router.get('/oauth', oAuth, authenticateOne)
-router.post('/secret', bearerAuth, secretOne)
+router.get('/oauth', oAuth, authenticateOne);
+router.post('/secret', bearerAuth, secretOne);
 router.get('/read', bearerAuth, permission('read'), userRoute);
 router.post('/create', bearerAuth, permission('create'), writerRoute);
 router.put('/update', bearerAuth, permission('update'), editorRoute);

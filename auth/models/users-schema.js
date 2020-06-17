@@ -39,7 +39,7 @@ module.exports.tokenAuthentication = async function (token) {
     const yesToken = await jwt.verify(token, SECRET);
     const yesStored = await schemaModel.find({ username: yesToken.username });
     const result = yesStored[0] ? Promise.resolve(yesStored) : Promise.reject('User Not Found');
-    return result
+    return result;
   } catch (err) {
     return Promise.reject(err.message);
   }

@@ -1,12 +1,10 @@
-# LAB - Class 09
-
-# Lab: API Server Phase 4
+# Final Lab (15): Authenticated API Server
 
 # Author: Darah
 
 # Links and Resources
 
-[submission PR](https://github.com/Darah98/api-server/pull/4)
+[submission](https://github.com/Darah98/authenticated-api-server)
 
 [ci/cd](https://github.com/Darah98/api-server/runs/732327101?check_suite_focus=true)
 
@@ -16,8 +14,20 @@
 
 ### How to initialize/run your application
 
-- To run application: nodemon/ npm start index.js
+- To run application: nodemon/ npm start
+- To navigate through routes: 
+    - Endpoints: '/'
+        1. signup
+        2. signin
+        3. list
+    - Endpoins: '/api/v1'
+        1. categories
+        2. products
+        3. read
+        4. create
+        5. update
+        6. delete
 
 ### UML
 
-![UML](api-uml08.PNG)
+![UML](finaluml.PNG)
