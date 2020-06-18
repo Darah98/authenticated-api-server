@@ -38,11 +38,14 @@ async function codeForToken(code) {
     grant_type: 'authorization_code',
   });
   const accessToken = tokenRes.body.access_token;
+  console.log('code for token');
   return accessToken;
 }
 async function getRemoteUser(token) {
   const userRes = await superagent.get(remoteAPI).set('Authorization', `token ${token}`).set('user-agent', 'express-app');
   const user = userRes.body;
+  console.log('get remote user');
+
   return user;
 }
 async function getUserInfo(remoteUser) {
@@ -52,6 +55,7 @@ async function getUserInfo(remoteUser) {
     role: 'admin',
     capabilities: roles['admin'],
   };
+  console.log('get user info');
   const new_username = userRecord.username;
   const newMod = new userModel(userSchema);
   const storedUser = await userSchema.find({ username: new_username });
