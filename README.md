@@ -30,4 +30,4 @@
 
 ### UML
 
-![UML](finaluml.PNG)
+![UML](auth-api-uml.png)

@@ -28,7 +28,7 @@ module.exports.authenticateBasic = async function (user, pass) {
 };
 module.exports.generateToken = function (user) {
   const userData = { username: user.username, capabilities: roles[user.role] };
-  const token = jwt.sign(userData, SECRET, { expiresIn: 900 });
+  const token = jwt.sign(userData, SECRET);
   return token;
 };
 module.exports.list = async function () {

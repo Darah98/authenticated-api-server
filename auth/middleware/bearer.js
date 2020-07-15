@@ -8,7 +8,7 @@ module.exports = (req, res, next) => {
       userSchema.tokenAuthentication(token).then(validUser => {
         req.user = validUser;
         next();
-      }).catch((err) => next('Invalid Login', err.message));
+      }).catch((err) => next('Invalid Login1', err.message));
     } else {
       next('Invalid header info');
     }
